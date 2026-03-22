@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SDET Suite" parallel="tests" thread-count="2">
+
+    <test name="TextBox Test">
+        <classes>
+            <class name="com.genos.sdet.tests.TextBoxTest"/>
+        </classes>
+    </test>
+
+    <test name="Another Test">
+        <classes>
+            <class name="com.genos.sdet.tests.ActionsClassExample"/>
+        </classes>
+    </test>
+
+</suite>
