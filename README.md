@@ -29,7 +29,7 @@ This repository contains a collection of Selenium WebDriver automation scripts d
 - Frame and window switching
 - Broken link detection in page anchor tags
 - Screenshots capture
-- Excel data read/write via Apache POI (`ReadDataFromExcel`)
+- Excel data read/write via Apache POI (`ReadDataFromExcel`, `WriteDataInToExcel`, `WriteDynamicDataInExcel`)
 
 ## 🧪 Quick start (run tests)
 1. Update ChromeDriver path (if needed):
@@ -43,8 +43,11 @@ This repository contains a collection of Selenium WebDriver automation scripts d
    - `mvn -Dtest=LoginPage test`
 
 ## 📌 Excel / data-driven section
-- Base file: `src/test/resources/TestData.xlsx` (sheet name `Sheet1`)
-- `ReadDataFromExcel` reads all rows + columns and prints values in console.
+- Base file: `resources/testdata.xlsx` (can have multiple sheets)
+- `ReadDataFromExcel` reads all rows + columns from a specified sheet and prints values in console.
+- `WriteDataInToExcel` writes static data (e.g., cricket player roles) to `Sheet2`.
+- `WriteDynamicDataInExcel` allows user input for dynamic rows/columns in `Sheet3`.
+- **Key feature**: Write classes preserve existing sheets (e.g., if `Sheet1`, `Sheet2`, `Sheet4` exist, running write adds new sheet without overwriting others).
 - If missing, create file manually:
   - headers: `Username`, `Password`
   - sample rows: `testuser1,password123`, `testuser2,password456`, `admin,adminpass`
