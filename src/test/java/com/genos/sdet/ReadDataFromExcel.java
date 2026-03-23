@@ -22,7 +22,7 @@ public class ReadDataFromExcel {
             FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"//resources//testdata.xlsx");
             XSSFWorkbook workbook = new XSSFWorkbook(file);
 
-            XSSFSheet sheet = workbook.getSheet("Sheet1");
+            XSSFSheet sheet = workbook.getSheet("Sheet2");
             int lastRowNum = sheet.getLastRowNum();
             System.out.println("Total rows in the sheet: " + lastRowNum);   
             int lastCellNum = sheet.getRow(1).getLastCellNum();
