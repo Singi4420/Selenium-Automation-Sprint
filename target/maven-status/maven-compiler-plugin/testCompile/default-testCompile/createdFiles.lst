@@ -15,6 +15,7 @@ com\genos\sdet\BootstrapDropdown.class
 com\genos\sdet\LoginPage.class
 com\genos\sdet\ActionsClassExample.class
 com\genos\sdet\base\BaseClass.class
+WriteDynamicDataInExcel.class
 com\genos\sdet\FramesExample.class
 com\genos\sdet\tests\TextBoxTest.class
 com\genos\sdet\WindowsExample.class
