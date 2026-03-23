@@ -6,6 +6,8 @@ com\genos\sdet\AlertsExample.class
 com\genos\sdet\ExplicitWaitExample.class
 com\genos\sdet\RadioButtonExample.class
 com\genos\sdet\KeyBoardActions.class
+com\genos\sdet\ReadDataFromExcel.class
+com\genos\sdet\BrokenLinks.class
 com\genos\sdet\CheckBoxExample.class
 com\genos\sdet\LaunchBrowser.class
 com\genos\sdet\pages\TextBoxPage.class

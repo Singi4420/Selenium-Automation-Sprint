@@ -4,6 +4,7 @@ C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\LaunchBrowser.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\FramesExample.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\Screenshots.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\pages\TextBoxPage.java
+C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\BrokenLinks.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\AlertsExample.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\LoginAndPrintDetails.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\ActionsClassExample.java
@@ -13,6 +14,7 @@ C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\tests\TextBoxTest.
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\AutoSuggestionDropdown.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\LoginPage.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\KeyBoardActions.java
+C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\ReadDataFromExcel.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\WindowsExample.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\RadioButtonExample.java
 C:\Maven_Projects\seleniumsprint\src\test\java\com\genos\sdet\BootstrapDropdown.java
